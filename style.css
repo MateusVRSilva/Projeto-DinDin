@@ -1,0 +1,211 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+header {
+    background-color: #2E948A;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    -webkit-box-shadow: 0px 7px 24px -7px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 7px 24px -7px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 7px 24px -7px rgba(0, 0, 0, 0.75);
+
+}
+
+
+@media (max-width: 768px) {
+
+    header {
+        display: block;
+    }
+
+}
+
+header a img {
+    width: 250px;
+    margin: 10px;
+    padding-left: 50px;
+
+
+}
+
+@media (max-width: 768px) {
+
+    header a img {
+        width: 200px;
+    }
+
+}
+
+header nav {
+    margin: 27px;
+    padding-right: 100px;
+
+}
+
+@media (max-width: 768px) {
+
+    header nav {
+        margin: 0px;
+        padding-right: 0px;
+        display: inline-flex;
+    }
+
+}
+
+header nav a {
+    text-decoration: none;
+    color: #fff;
+    width: bold;
+    font-size: 30px;
+    padding: 17px;
+
+}
+
+
+
+.banner {
+    display: flex;
+
+    padding: 150px 0px 80px 300px;
+
+
+}
+
+@media(max-width: 768px) {
+    .banner {
+        display: block;
+        padding: 50px;
+    }
+
+}
+
+.title h1 {
+    color: #FF4081;
+    font-size: 90px;
+
+}
+
+@media (max-width: 768px) {
+
+    .title h1 {
+        font-size: 45px;
+    }
+
+}
+
+.title p {
+
+    color: #555555;
+    font-size: 30px;
+    margin-top: 30px;
+    padding-bottom: 40px;
+
+}
+
+@media (max-width: 768px) {
+
+    .title p {
+        font-size: 25px;
+    }
+
+}
+
+.title a {
+    text-decoration: none;
+    color: #FF4081;
+    font-size: 30px;
+    border: 2px solid #FF4081;
+    border-radius: 30px;
+
+    padding: 10px;
+
+}
+
+#img-banner img {
+    padding-left: 100px;
+    width: 601px;
+    height: 600px;
+
+}
+
+
+@media (max-width: 768px) {
+
+    #img-banner img {
+        padding-top: 40px;
+        padding-left: 0px;
+        width: 301px;
+        height: 300px;
+
+    }
+}
+
+.article-cursos {
+    background-color: #F6F6F6;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 100px;
+
+
+
+}
+
+@media (max-width: 768px) {
+
+    .article-cursos {
+        display: block;
+        padding: 0;
+
+    }
+}
+
+.cursos {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+    width: 344px;
+
+}
+
+@media (max-width: 768px) {
+    .cursos {
+        padding: 20px;
+    }
+
+}
+
+.cursos img {
+    width: 300px;
+}
+
+.cursos h2 {
+    display: inline-flex;
+    padding-top: 40px;
+    color: #FF4081;
+    font-size: 25px;
+    padding-bottom: 30px;
+}
+
+.cursos p {
+    display: flex;
+    text-align: center;
+    align-items: center;
+
+}
+
+.cursos a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #FF4081;
+    font-size: 17px;
+    border: 2px solid #FF4081;
+    border-radius: 30px;
+    margin-top: 30px;
+    padding: 10px 35px;
+}
